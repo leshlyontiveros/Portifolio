@@ -1,0 +1,38 @@
+nav {
+  background-color: rgb(49, 48, 48);
+  color: rgb(14, 14, 14);
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem;
+  z-index: 99999;
+  height: 42px;
+
+  img {
+      width: 45px;
+      cursor: pointer;
+  }
+
+  ul {
+
+      display: flex;
+      text-decoration: none;
+      list-style: none;
+      gap: 1.3rem;
+      margin: 1rem 1rem;
+
+      li {
+          
+          // margin-right: 3rem;
+          cursor: pointer;
+          
+          a {
+              text-decoration: none;
+              color: rgb(221, 221, 221);
+
+              &:hover {
+                  color: #a624e2;
+              }
+          }
+      }
+  }
+}
